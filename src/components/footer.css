@@ -1,0 +1,7 @@
+.icon-s{
+    transition: .5s;
+}
+.icon-s:hover{
+    color: black;
+    cursor: pointer;
+}
