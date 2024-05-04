@@ -1,0 +1,47 @@
+    nav {
+        display: flex;
+        align-items: center; /* Vertically center items */
+        justify-content: space-around; /* Distribute items horizontally */
+        background-color: transparent;
+        color: #fff;
+        position: fixed;
+
+        width: 100%;
+    }
+    
+    .logo img {
+        height: 90px; /* Adjust as needed */
+        transition: 1s all;
+    }
+    .logo img:hover {
+        transition: 1;
+        height: 120px;
+    }
+    
+    .menu {
+        list-style: none;
+        display: flex;
+    }
+    
+    .menu li {
+        margin-right: 1rem;
+        transition: 1s all;
+        opacity: 0.5;
+    }
+    .menu li:hover {
+        transition: 1s all;
+        color: #ffffff;
+        opacity: 1;
+        font-size: larger;
+        box-shadow: inset rgb(10, 65, 231);
+        
+    }
+    .menu li:last-child {
+        margin-right: 0; /* Remove margin from last item */
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: #fff;
+    }
+    

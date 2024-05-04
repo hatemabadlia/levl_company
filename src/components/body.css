@@ -1,0 +1,57 @@
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        text-align: left;
+        height: 100vh;
+        line-height: 10px;
+        }
+    
+    .feature-icon {
+        display: inline-block;
+        font-size: 48px;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+    
+    .feature-title {
+        font-size: 29px;
+        
+    }
+    .feature-subtitle {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .feature-pargraphr {
+        font-size: 8px;
+        color: #666;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .tato{
+        color: bisque;
+        line-height: 95px;
+        width: 50%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+    .tatot{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_verificate{
+        width: 20px;
+        height: 20px;
+    }
+    .levltitl{
+        font-family: "Anton", sans-serif;
+        letter-spacing: 5px;
+        color: blue;
+    }
